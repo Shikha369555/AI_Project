@@ -20,3 +20,5 @@ word_freq = Counter(all_words)
 # show top 10 words
 print("\nTop 10 most common words:")
 print(word_freq.most_common(10))
+print("\nInsight:")
+print("Most complaints are related to:", word_freq.most_common(1)[0][0])
