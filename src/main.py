@@ -9,3 +9,14 @@ df["clean_text"] = df["text"].apply(clean_text)
 
 # show output
 print(df[["text", "clean_text"]])
+from collections import Counter
+
+# combine all cleaned text
+all_words = " ".join(df["clean_text"]).split()
+
+# count frequency
+word_freq = Counter(all_words)
+
+# show top 10 words
+print("\nTop 10 most common words:")
+print(word_freq.most_common(10))
