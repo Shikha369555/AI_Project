@@ -1,3 +1,3 @@
 def clean_text(text):
-    return text.lower()
+    text = text.lower()
     return text.strip()
