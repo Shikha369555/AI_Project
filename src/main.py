@@ -6,6 +6,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
+loaded_model = joblib.load("models/model.pkl")
+loaded_vectorizer = joblib.load("models/vectorizer.pkl")
+
+
+
 # load dataset
 df = pd.read_csv("data/data.csv")
 
