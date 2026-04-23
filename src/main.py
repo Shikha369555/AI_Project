@@ -55,3 +55,4 @@ for actual, pred in zip(y_test, y_pred):
 accuracy = accuracy_score(y_test, y_pred)
 print("\nModel Accuracy:", accuracy)
 user_input = input("\nEnter your complaint: ")
+print("User Input:", user_input)
