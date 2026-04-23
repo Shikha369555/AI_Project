@@ -34,3 +34,5 @@ print("\nFeature Names:")
 print(vectorizer.get_feature_names_out())
 
 y = df["category"]
+print("\nTarget values:")
+print(y)
