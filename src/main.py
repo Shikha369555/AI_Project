@@ -33,6 +33,8 @@ print("\nTF-IDF Shape:", X.shape)
 print("\nFeature Names:")
 print(vectorizer.get_feature_names_out())
 
-y = df["category"]
+y = df[ "department" ]
 print("\nTarget values:")
 print(y)
+print("\nUnique categories:")
+print(y.unique())
