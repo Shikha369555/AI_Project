@@ -32,3 +32,5 @@ X = vectorizer.fit_transform(df["clean_text"])
 print("\nTF-IDF Shape:", X.shape)
 print("\nFeature Names:")
 print(vectorizer.get_feature_names_out())
+
+y = df["category"]
