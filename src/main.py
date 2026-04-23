@@ -53,3 +53,4 @@ print("\nActual vs Predicted:")
 for actual, pred in zip(y_test, y_pred):
     print(f"Actual: {actual} → Predicted: {pred}")
 accuracy = accuracy_score(y_test, y_pred)
+print("\nModel Accuracy:", accuracy)
