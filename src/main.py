@@ -26,3 +26,4 @@ print("Most complaints are related to:", word_freq.most_common(1)[0][0])
 # TF-IDF
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(df["clean_text"])
+print("\nTF-IDF Shape:", X.shape)
