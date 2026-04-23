@@ -23,3 +23,5 @@ print("\nTop 10 most common words:")
 print(word_freq.most_common(10))
 print("\n\nInsight:")
 print("Most complaints are related to:", word_freq.most_common(1)[0][0])
+# TF-IDF
+vectorizer = TfidfVectorizer()
