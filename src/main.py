@@ -49,3 +49,6 @@ print("\nModel training completed")
 y_pred = model.predict(X_test)
 print("\nPredictions:")
 print(y_pred)
+print("\nActual vs Predicted:")
+for actual, pred in zip(y_test, y_pred):
+    print(f"Actual: {actual} → Predicted: {pred}")
