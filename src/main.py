@@ -1,5 +1,6 @@
 import pandas as pd
 from preprocess import clean_text
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # load dataset
 df = pd.read_csv("data/data.csv")
