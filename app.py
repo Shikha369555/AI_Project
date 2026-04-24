@@ -6,3 +6,5 @@ st.markdown(
     unsafe_allow_html=True
 )
 user_input = st.text_input("📝 Your Complaint", placeholder="e.g., Water leakage in my area")
+if st.button("🔍 Predict Department"):
+    st.success(f"✅ Predicted Department: {result[0]}")
