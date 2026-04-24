@@ -10,3 +10,13 @@ if st.button("🔍 Predict Department"):
     st.success(f"✅ Predicted Department: {result[0]}")
 st.markdown("---")
 st.markdown("Made with ❤️ using AI")
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #f5f7fa;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
