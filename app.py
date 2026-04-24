@@ -1,3 +1,2 @@
 import streamlit as st
-st.title("AI Grievance System")
-st.write("Enter your complaint below:")
+st.set_page_config(page_title="AI Grievance System", page_icon="🤖", layout="centered")
